@@ -1,0 +1,55 @@
+:root {
+    --gray: #CDCCCC;
+    --greenDark: #7CA551;
+    --green: #9FBF57;
+    --greenLight: #D1DFAF;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+header {
+    background-color: var(--gray);
+    min-height: 10vh;
+}
+
+main {
+    background-color: var(--greenDark);
+    min-height: 40vh;
+}
+
+aside { 
+    background-color: var(--green);
+    min-height: 60vh;
+}
+
+aside + aside {
+    background-color: var(--greenLight);  
+}
+
+@media screen and (min-width: 768px) {
+    /* Add Tablet Content Here */
+}
+
+@media screen and (min-width: 1024px) {
+    /* Add Laptop Content Here */
+}
+
+@media screen and (min-width: 1200px) {
+    /* Add Desktop Content Here */
+}
+
