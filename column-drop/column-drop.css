@@ -42,7 +42,11 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-    /* Add Tablet Content Here */
+    .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 }
 
 @media screen and (min-width: 1024px) {
