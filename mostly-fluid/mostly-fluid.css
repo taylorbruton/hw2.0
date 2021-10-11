@@ -43,7 +43,7 @@ aside + aside {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 100%;
+        width: 100%;
         margin-left: 100px;
         margin-right: 100px;
         position: center; 
