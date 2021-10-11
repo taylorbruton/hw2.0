@@ -43,10 +43,11 @@ aside + aside {
 
 @media screen and (min-width: 768px) {
     .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
 @media screen and (min-width: 1024px) {
     /* Add Laptop Content Here */
