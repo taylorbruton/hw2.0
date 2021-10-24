@@ -42,7 +42,22 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-     /* Add Laptop Content Here */
+    	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 768px;		
+	}
+	main {
+		width:100%
+	}
+	aside {
+		width:50%
+	}
+	aside + aside {
+		width:50%
+	}
 }
 
 @media screen and (min-width: 1024px) {
