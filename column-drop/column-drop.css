@@ -42,11 +42,7 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+  
     }
 
 @media screen and (min-width: 1024px) {
@@ -54,6 +50,22 @@ aside + aside {
 }
 
 @media screen and (min-width: 1200px) {
-    /* Add Desktop Content Here */
+   .wrapper{ 
+        display: flex;
+        flex-wrap: wrap;
+       
+  }
+  main{
+    width:75%;
+    order:2;
+  }
+  aside{
+    width:25%;
+    order:1;
+  }
+  aside+aside{
+    width:75%;
+    order:3;
+  }
 }
 
