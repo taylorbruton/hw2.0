@@ -43,6 +43,7 @@ main + aside {
 }
 
 @media screen and (min-width: 768px) {
+    /* Add Laptop Content Here */
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,6 +51,33 @@ main + aside {
 }
 
 @media screen and (min-width: 1200px) {
-    /* Add Desktop Content Here */
+     .wrapper{
+      display:flex;
+      flex-wrap:wrap;
+    align:left;
+    max-width: 1240px;
+    align-self:stretch;
+    margin: 0 auto;
+    
+   }
+  .main-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    algin:right;
+    width:75%;
+    align-self:stretch;
+  }
+  aside{
+    width:25%;
+    align:left;
+    align-self:stretch;
+  }
+  main+aside{
+    width:100%;
+  }
+  main{
+    width:100%;
+  }
+}
 }
 
